@@ -12,7 +12,7 @@ def is_perfect_square(left, right, num):
     return False      
 
 #driver code
-num = 10
+num = 16
 left = 0
 right = num
 result = is_perfect_square(left, right, num)
