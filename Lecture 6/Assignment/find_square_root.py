@@ -11,5 +11,5 @@ def sqrt(num):
             right= mid -1   
     return left - 1
 # Driver Code
-num= 10
+num= 8
 print(sqrt(num))
