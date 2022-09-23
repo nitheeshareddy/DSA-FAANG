@@ -1,4 +1,5 @@
 #Time complexity: O(logn) - The search space is limited to half so the recurrence relation is T(n/2) + c
+#Space Complexity: O(1) - No extra space is used
 def find_bad_product_index(left, right, arr, target):
     while left <= right:
         mid = left + (right - left)//2
