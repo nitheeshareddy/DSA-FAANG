@@ -1,5 +1,5 @@
 #Time complexity: O(logn) - The search space is limited to half so the recurrence relation is T(n/2) + c
-
+#Space Complexity: O(1) - No extra space is used
 def sqrt(num):
     right =num
     left= 0
